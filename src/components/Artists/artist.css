@@ -1,0 +1,62 @@
+.arttists_desc {
+    width: 66.666667%;
+}
+
+.arttists_desc > h4 {
+    padding-bottom: 16px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.arttists_desc > p {
+    opacity: 0.6;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.artists_pic {
+    padding: 76px 20px;
+    display: flex;
+    overflow: hidden;
+}
+
+.pic {
+    position: relative;
+    margin-right: 35px;
+}
+
+.pic > div {
+    background: url('./pic1.jpeg');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    width: 313px;
+    height: 525px;
+    border-radius: 12px;
+}
+
+.pic > p {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 5px 12px 12px 12px;
+    background-color: rgba(50, 49, 49, 1);
+    color: #dddddd;
+    font-size: 24px;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 28px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.pic > p:hover {
+    color: #999999;
+}
+
+@media screen and (max-width: 768px) {
+    .pic > div {
+        width: 272px;
+    }
+}

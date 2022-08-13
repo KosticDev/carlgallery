@@ -1,0 +1,65 @@
+.background {
+    font-family: 'Inter', sans-serif;
+}
+
+.title {
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Great Vibes';
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card_lists {
+    display: flex;
+}
+
+.video {
+    width: 100%;
+}
+
+.title > img {
+    width: 70px;
+    margin-bottom: -20px;
+}
+
+.title > p {
+    margin-right: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 3px solid #234fad;
+    margin: 10px;
+    justify-content: center;
+    border-radius: 20px;
+    width: 20%;
+}
+
+.card > img {
+    flex: 1;
+    height: 200px;
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .card_lists {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card {
+        width: 100%;
+        height: 300px;
+    }
+
+    .card > img {
+        height: 100%;
+    }
+}
