@@ -10,7 +10,7 @@ function Title() {
     return (
         <div className='background'>
             <div>
-                <video loop muted  preload='auto' className='video'>
+                <video loop muted autoPlay preload='auto' className='video'>
                     <source src={video} type='video/webm'></source>
                 </video>
             </div>
