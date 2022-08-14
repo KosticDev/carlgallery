@@ -6,7 +6,7 @@ function Footer() {
             <div className='container'>
                 <div className='footer1'>
                     <div className='col-42 desc_left'>
-                        <p className='bold'>gen.art</p>
+                        <p className='bold'>Carl Gallery Club</p>
                         <p className='col'>The Carl gallery club is on a mission to create a platform to help artists enter the new and exciting world of NFT & Metaverse & community.We want to create value for their art. We also want you and our innovative artists to have a space to build stronger connections with each other.</p>
                     </div>
                     <div className='col-4 desc_center'>
