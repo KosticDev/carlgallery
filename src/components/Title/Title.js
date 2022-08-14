@@ -16,8 +16,8 @@ function Title() {
             </div>
             <div className='container'>
                 <div className='title'>
-                    <h3>Where code, art and <br />reativity intersect</h3>
-                    <p>A fully on-chain generative art platform that is operated as a <br />DAO. As a member you'll get access to monthly drops from <br />incredible artists.</p>
+                    <h3>Where art, code and<br />creativity merge</h3>
+                    <p>A fully on-chain generative art platform . As a member you’ll<br />get access to monthly drops from incredible artists.<br />And much more.</p>
                     <div className='title_buttons'>
                         <button className='coming'>Coming Soon</button>
                         <button className='learn'>Learn More</button>
