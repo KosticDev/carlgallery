@@ -27,7 +27,7 @@ We want you, the artists and us to come together to build a strong and massively
                         <img src={img2} alt='' />
                     </div>
                     <div className='content1_left'>
-                        <p>We Can Keep</p>
+                        <p>All Art Is Fully On-Chain</p>
                         <p className='desc'>Exquisite artwork by our world-best artists.
 Enjoy yourself as you visit the Carl gallery NFT club platform & experience strikingly beautiful works by our chosen artists.
 If you feel drawn to an artwork on our platform, you have the opportunity to mint a unique iteration of this work for yourself. 
