@@ -16,7 +16,7 @@ We plan to go the extra mile to ensure a smooth experience for each one of you.
 Each of our art projects will be tested thoroughly on testnet before migrating and deploying on mainnet. 
 We, after all, aim to keep giving the best in the world artists the very best platform to showcase their valuable artwork.
 We want you, the artists and us to come together to build a strong and massively supportive community that breathes and lives in art.</p>
-                        <div>Enter DAO</div>
+                        <div>About Us</div>
                     </div>
                     <div className='content2_right'>
                         <img src={img1} alt='' />
@@ -34,7 +34,7 @@ If you feel drawn to an artwork on our platform, you have the opportunity to min
 Our team combines creative coding with Blockchain technology to allow you to become a contributor in the artwork you mint. 
 Your final NFT will be a surprise for you being a blend of your reflection and the artist’s vision.
 there is something unique especially for you. </p>
-                        <div>Read Docs</div>
+                        <div>View Projects</div>
                     </div>
                 </div>
             </div>
