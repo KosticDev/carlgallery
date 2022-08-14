@@ -34,6 +34,14 @@
     margin-right: 2%;
 }
 
+.coming:hover {
+    background: #333;
+}
+
+.learn:hover {
+    background: #eee;
+}
+
 .learn {
     font-size: 15px;
     padding: 25px 70px;
