@@ -7,7 +7,7 @@ function Header() {
             <div className='container'>
                 <div className='main_top'>
                     <div className='logo'>
-                        <h2><Link to='/'>GEN.ART</Link></h2>
+                        <h2><Link to='/'>Carl Gallery Club</Link></h2>
                     </div>
                     <div className='navbar'>
                         <ul className='list'>
