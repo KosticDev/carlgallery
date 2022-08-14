@@ -1,11 +1,10 @@
-import Card from './Card';
 import './gallery1.css'
 
 function Gallery1() {
     return (
         <div className='container'>
             <div className="gallery1">
-                <Card />
+                <h1>Gallery1</h1>>
             </div>
         </div>
     )

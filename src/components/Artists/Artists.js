@@ -2,10 +2,6 @@ import './artist.css';
 
 function Artists() {
 
-    // document.addEventListener('DOMContentLoaded', function () {
-    //     new Splide('#carousel').mount();
-    // });
-
     return (
         <div className='artists'>
             <div className='container'>

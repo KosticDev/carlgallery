@@ -12,7 +12,7 @@ function Title() {
         <div className='background'>
             <div>
                 <video loop muted autoPlay preload='auto' className='video'>
-                    {/* <source src={video} type='video/webm'></source> */}
+                    <source src={video} type='video/webm'></source>
                 </video>
             </div>
             <div className='container'>
