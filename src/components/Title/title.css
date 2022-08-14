@@ -30,16 +30,18 @@
     background: #000;
     color: #fff;
     border-radius: 50px;
+    width: fit-content;
     margin-right: 2%;
 }
 
 .learn {
     font-size: 15px;
-    padding: 18px 28px;
+    padding: 15px 28px;
     background: transparent;
     color: #000;
     border-radius: 50px;
     margin-right: 2%;
+    width: fit-content;
 }
 
 .title_buttons {
@@ -98,5 +100,14 @@
 
     .title > p {
         font-size: 20px;
+    }
+
+    .title_buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .coming {
+        margin-bottom: 3%;
     }
 }
