@@ -99,6 +99,11 @@
     display: block;
 }
 
+.menubar {
+    height: 2px;
+    color: #333;
+}
+
 @media screen and (max-width: 768px) {
     .header {
         padding: 20px 0px;
