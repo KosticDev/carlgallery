@@ -39,7 +39,12 @@
 }
 
 .col-4 {
-    width: 40%;
+    width: 50%;
+    gap: 20px;
+}
+
+.col-4 {
+    width: 20%;
     gap: 20px;
 }
 

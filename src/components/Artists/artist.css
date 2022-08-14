@@ -55,6 +55,17 @@
     color: #999999;
 }
 
+@media screen and (max-width: 1200px) {
+    .arttists_desc > h4 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .arttists_desc {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .pic > div {
         width: 272px;

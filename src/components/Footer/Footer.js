@@ -5,7 +5,7 @@ function Footer() {
         <div className='footer'>
             <div className='container'>
                 <div className='footer1'>
-                    <div className='col-4 desc_left'>
+                    <div className='col-42 desc_left'>
                         <p className='bold'>gen.art</p>
                         <p className='col'>Where code, art & creativity intersect. Monthly drops, world renowned artists, all whilst combining the best of both physical and digital. Operating as a DAO with a central governance token, our community is focused on pushing the boundaries of both technology and art.</p>
                     </div>
@@ -13,29 +13,13 @@ function Footer() {
                         <ul className='col-4-1'>
                             <li><a>Drops</a></li>
                             <li><a>View Gallery</a></li>
-                            <li><a>Rorschach Meadow</a></li>
-                            <li><a>≈ 3000</a></li>
                             <li><a>Hyperscopic</a></li>
-                        </ul>
-                        <ul className='col-4-1'>
-                            <li><a>Tools</a></li>
-                            <li><a>Memberships</a></li>
-                            <li><a>Print Shop</a></li>
-                            <li><a>DAO</a></li>
                         </ul>
                         <ul className='col-4-1'>
                             <li><a>About</a></li>
                             <li><a>What is GEN.ART?</a></li>
-                            <li><a>$GENART Token</a></li>
                             <li><a>Exhibitions</a></li>
                             <li><a>Contracts</a></li>
-                        </ul>
-                        <ul className='col-4-1'>
-                            <li><a>Docs</a></li>
-                            <li><a>Blog</a></li>
-                            <li><a>Forum</a></li>
-                            <li><a>Playground</a></li>
-                            <li><a>Governance</a></li>
                         </ul>
                     </div>
                     <div className='col-2 desc_right'>
