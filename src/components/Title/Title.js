@@ -16,10 +16,6 @@ function Title() {
                 </video>
             </div>
             <div className='container'>
-                <div className='title'>
-                    <img src={logo} alt='' />
-                    <p>latest</p>
-                </div>
                 <div className='card_lists'>
                     <div className='card'>
                         <img src={img1} alt='' />
