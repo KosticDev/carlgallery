@@ -22,6 +22,9 @@ function Header() {
                             </li>
                         </ul>
                         <div className='connect'>Connect Wallet</div>
+                        <div className='navbar_hidden'>
+                            
+                        </div>
                     </div>
                 </div>
             </div>

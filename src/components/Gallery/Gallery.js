@@ -3,7 +3,6 @@ import './gallery.css';
 function Gallery() {
     return (
         <div className='container'>
-            <h1>Gallery</h1>
         </div>
     )
 }
