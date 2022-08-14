@@ -8,8 +8,14 @@ function Content() {
             <div className='container'>
                 <div className='content1'>
                     <div className='content1_left mar'>
-                        <p>A members-only art community driven by you.</p>
-                        <p className='desc'>GEN.ART was founded on the belief that a 5,000 strong community of like-minded people interested in generative art would be a force to be reckoned with. And thankfully we've been proven right. We have a community of smart thinkers, builders, passionate collectors and world class artists. Together all ushering in a new creative renaissance.</p>
+                        <p>Carl Gallery Club NFT</p>
+                        <p className='desc'>
+Our project team explores every nook & corner of the world to discover known & unknown brilliant artists. 
+Our team  puts in extensive effort to curate the best artwork for you through the parameters of quality, skill, innovation and propriety. 
+We plan to go the extra mile to ensure a smooth experience for each one of you. 
+Each of our art projects will be tested thoroughly on testnet before migrating and deploying on mainnet. 
+We, after all, aim to keep giving the best in the world artists the very best platform to showcase their valuable artwork.
+We want you, the artists and us to come together to build a strong and massively supportive community that breathes and lives in art.</p>
                         <div>Enter DAO</div>
                     </div>
                     <div className='content2_right'>
@@ -21,8 +27,13 @@ function Content() {
                         <img src={img2} alt='' />
                     </div>
                     <div className='content1_left'>
-                        <p>All art is fully on-chain</p>
-                        <p className='desc'>Each GEN.ART collection is stored immutably on the Ethereum blockchain and IPFS giving owners the ability to generate the artwork from source without any dependency to third parties.</p>
+                        <p>We Can Keep</p>
+                        <p className='desc'>Exquisite artwork by our world-best artists.
+Enjoy yourself as you visit the Carl gallery NFT club platform & experience strikingly beautiful works by our chosen artists.
+If you feel drawn to an artwork on our platform, you have the opportunity to mint a unique iteration of this work for yourself. 
+Our team combines creative coding with Blockchain technology to allow you to become a contributor in the artwork you mint. 
+Your final NFT will be a surprise for you being a blend of your reflection and the artist’s vision.
+there is something unique especially for you. </p>
                         <div>Read Docs</div>
                     </div>
                 </div>
