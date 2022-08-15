@@ -11,7 +11,10 @@
     z-index: 100;
 }
 
+.show {display: block;}
+
 .container {
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -51,13 +54,6 @@
     align-items: center;
 }
 
-@media screen and (max-width: 992px) {
-    .list {
-        display: none;
-    }
-}
-
-
 .list>li {
     margin-right: 15px;
     cursor: pointer;
@@ -80,7 +76,7 @@
     position: absolute;
     display: none;
     top: 70%;
-    right: 0;
+    right: 37%;
     font-size: 15px;
     background: #ffffff;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -99,9 +95,51 @@
     display: block;
 }
 
-.menubar {
-    height: 2px;
-    color: #333;
+.navbar_hidden {
+    position: relative;
+    display: flex;
+    align-items: center;
+    display: none;
+    cursor: pointer;
+}
+
+.menubar > p {
+    height: 5px;
+    width: 30px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.navbar_show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar_show1 {
+    display: none;
+}
+
+.navbar_show > ul > li {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: 5% 0;
+    padding: 5px 50px;
+    cursor: pointer;
+}
+
+.navbar_show > ul > li:hover {
+    background: #eee;
+}
+
+.navbar_show > ul {
+    list-style: none;
+}
+
+.navbar_show > ul > li > a {
+    text-decoration: none;
+    color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -113,8 +151,26 @@
         font-size: 20px;
     }
 
+    .menubar > p {
+        height: 3px;
+        width: 20px;
+        margin: 3px 0;
+    }
+
     .connect {
         font-size: 12px;
         padding: 10px 15px;
     }
 }
+
+
+@media screen and (max-width: 992px) {
+    .list {
+        display: none;
+    }
+
+    .navbar_hidden {
+        display: block;
+    }
+}
+
