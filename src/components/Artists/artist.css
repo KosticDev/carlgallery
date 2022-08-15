@@ -18,28 +18,24 @@
 .artists_pic {
     padding: 76px 20px;
     display: flex;
-    overflow: hidden;
 }
 
 .pic {
     position: relative;
     margin-right: 35px;
+    width: 25%;
 }
 
-.pic > div {
-    background: url('./pic1.jpeg');
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    width: 313px;
-    height: 525px;
+.pic > img {
+    width: 100%;
+    height: 100%;
     border-radius: 12px;
 }
 
 .pic > p {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: 10px;
+    left: 5px;
     padding: 5px 12px 12px 12px;
     background-color: rgba(50, 49, 49, 1);
     color: #dddddd;
@@ -69,5 +65,14 @@
 @media screen and (max-width: 768px) {
     .pic > div {
         width: 272px;
+    }
+
+    .pic {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .artists_pic {
+        display: block;
     }
 }
