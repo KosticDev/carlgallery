@@ -92,6 +92,6 @@
     }
 
     .content2_right {
-        order: 1;
+        width: 100%;
     }
 }
