@@ -59,6 +59,7 @@
 .content2_right {
     display: flex;
     align-items: center;
+    width: 50%;
 }
 
 @media screen and (max-width: 1200px) {
