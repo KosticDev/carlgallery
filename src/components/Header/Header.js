@@ -18,8 +18,8 @@ function Header() {
                                 <li className='gallery'>
                                     <a>Gallery collection</a>
                                     <div className='dropdown'>
-                                        <p><Link to='gallery1'>Gallery collection 1</Link></p>
-                                        <p><Link to='gallery2'>Gallery collection 2</Link></p>
+                                        <p><Link to='gallery1'>Abdul Qader genesis collection</Link></p>
+                                        <p><Link to='gallery2'>Itzhaq Mevorah collection</Link></p>
                                     </div>
                                 </li>
                                 <div className='connect'>Connect Wallet</div>
@@ -39,8 +39,8 @@ function Header() {
                 <ul className='navbar_show1'>
                     <li className='show'><Link to='about'>About</Link></li>
                     <li className='show'><Link to='galleries'>Gallery</Link></li>
-                    <li className='show'><Link to='gallery1'>Gallery Collection 1</Link></li>
-                    <li className='show'><Link to='gallery2'>Gallery Collection 2</Link></li>
+                    <li className='show'><Link to='gallery1'>Abdul Qader genesis collection</Link></li>
+                    <li className='show'><Link to='gallery2'>Itzhaq Mevorah collection</Link></li>
                     <li>Connect Wallet</li>
                 </ul>
             </div>
