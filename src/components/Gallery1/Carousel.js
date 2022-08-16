@@ -1,7 +1,6 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import './gallery1.css';
 import card1_1 from './001/001_1.mp4';
 import card2_1 from './002/002_1.mp4';
 import card3_1 from './003/003_1.mp4';
