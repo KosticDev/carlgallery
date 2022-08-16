@@ -12,7 +12,7 @@ function Title() {
             </div>
             <div className='container'>
                 <div className='title'>
-                    <h3>Where art, code, community<br />and creativity merge</h3>
+                    <h3>Where art, code, creativity<br />and community merge</h3>
                     <p>A fully on-chain generative art platform . As a member you’ll<br />get access to monthly drops from incredible artists.<br />And much more.</p>
                     <div className='title_buttons'>
                         <button className='coming'>Coming Soon</button>
