@@ -16,28 +16,28 @@ const responsive = {
 const items = [
     <div className="item" data-value="1">
         <div>
-            <video loop muted preload='auto' className='video'>
+            <video loop muted autoPlay preload='auto' className='video'>
                 <source src={card1_1} type='video/webm'></source>
             </video>
         </div>
     </div>,
     <div className="item" data-value="2">
         <div>
-            <video loop muted preload='auto' className='video'>
+            <video loop muted autoPlay preload='auto' className='video'>
                 <source src={card2_1} type='video/webm'></source>
             </video>
         </div>
     </div>,
     <div className="item" data-value="3">
         <div>
-            <video loop muted preload='auto' className='video'>
+            <video loop muted autoPlay preload='auto' className='video'>
                 <source src={card3_1} type='video/webm'></source>
             </video>
         </div>
     </div>,
     <div className="item" data-value="4">
         <div>
-            <video loop muted preload='auto' className='video'>
+            <video loop muted autoPlay preload='auto' className='video'>
                 <source src={card4_1} type='video/webm'></source>
             </video>
         </div>
