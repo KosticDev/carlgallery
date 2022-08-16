@@ -7,7 +7,7 @@
 .previous {
     position: absolute;
     top: 35%;
-    color: #fff;
+    color: #aaa;
     left: 2%;
     z-index: 1;
     font-size: 50px;
@@ -16,7 +16,7 @@
 .next {
     position: absolute;
     top: 35%;
-    color: #fff;
+    color: #aaa;
     right: 2%;
     font-size: 50px;
 }
@@ -26,12 +26,12 @@
     margin: 10px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    width: 400px;
 }
 
 .card2 > div > img {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    width: 100%;
 }
 
 .card_desc {
@@ -43,10 +43,25 @@
     display: flex;
     margin-bottom: 2%;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: scroll;
 }
 
-.card2 > div > img {
+.carousel {
     width: 100%;
+}
+
+@media screen and (max-width: 575px) {
+    .card2 {
+        width: 76vw;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .card2, .card2>div>img {
+        width: 260px
+    }
 }
 
 .slider {

@@ -15,40 +15,30 @@
     line-height: 28px;
 }
 
-.artists_pic {
-    padding: 76px 20px;
-    display: flex;
+.mar_top {
+    margin-top: 5%;
 }
 
-.pic {
-    position: relative;
-    margin-right: 35px;
-    width: 25%;
-}
-
-.pic > img {
-    width: 100%;
-    height: 100%;
-    border-radius: 12px;
-}
-
-.pic > p {
+.name {
     position: absolute;
-    bottom: 10px;
-    left: 5px;
-    padding: 5px 12px 12px 12px;
+    bottom: 5%;
+    left: 5%;
+    padding: 15px 20px;
     background-color: rgba(50, 49, 49, 1);
-    color: #dddddd;
-    font-size: 24px;
-    border-radius: 12px;
-    text-align: center;
-    line-height: 28px;
-    opacity: 0.8;
+    width: fit-content;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    opacity: 0.6;
+    font-family: 'Inter', sans-serif;
     cursor: pointer;
 }
 
-.pic > p:hover {
-    color: #999999;
+.name:hover {
+    opacity: 0.7;
+}
+
+.item {
+    position: relative;
 }
 
 @media screen and (max-width: 1200px) {
@@ -59,20 +49,5 @@
 
     .arttists_desc {
         width: 100%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .pic > div {
-        width: 272px;
-    }
-
-    .pic {
-        width: 100%;
-        margin-bottom: 5%;
-    }
-
-    .artists_pic {
-        display: block;
     }
 }
