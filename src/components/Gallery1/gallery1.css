@@ -2,10 +2,6 @@
     margin: 5.5% 0;
 }
 
-.card_list {
-    display: flex;
-}
-
 .card1 {
     background: #eee;
     margin: 10px 10px;

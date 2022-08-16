@@ -1,4 +1,5 @@
 import Carousel from './Carousel';
+import './gallery1.css';
 import pic from '../Artists/pic1.png';
 
 function Gallery1() {
