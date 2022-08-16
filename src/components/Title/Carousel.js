@@ -5,7 +5,6 @@ import card1_1 from '../Gallery1/001/001_1.mp4';
 import card2_1 from '../Gallery1/002/002_1.mp4';
 import card3_1 from '../Gallery1/003/003_1.mp4';
 import card4_1 from '../Gallery1/004/004_1.mp4';
-import './gallery1.css';
 
 const responsive = {
     0: { items: 1 },
