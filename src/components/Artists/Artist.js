@@ -1,10 +1,10 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import img1 from './pic1.jpg';
-import img2 from './pic2.jpg';
-import img3 from './pic3.jpg';
-import img5 from './pic5.jpg';
+import img1 from './pic1.png';
+import img2 from './pic2.png';
+import img3 from './pic3.png';
+import img4 from './pic4.png';
 import './artist.css';
 
 const responsive = {
@@ -27,7 +27,7 @@ const items = [
         <div className='name'>Yalda</div>
     </div>,
     <div className="item" data-value="5">
-        <img className='carousel' src={img5} />
+        <img className='carousel' src={img4} />
         <div className='name'>Alia</div>
     </div>,
 ];
