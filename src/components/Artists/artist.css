@@ -15,6 +15,10 @@
     line-height: 28px;
 }
 
+.item {
+    height: 100%;
+}
+
 .mar_top {
     margin-top: 5%;
 }

@@ -1,6 +1,6 @@
 import './content.css';
-import video from './content1.mp4';
-import video1 from './content2.mp4';
+import video from '../../assets/img/content1.mp4';
+import video1 from '../../assets/img/content2.mp4';
 
 function Content() {
     return (
@@ -20,7 +20,7 @@ function Content() {
                     </div>
                     <div className='content2_right'>
                         <div>
-                            <video loop muted autoPlay preload='auto' className='video'>
+                            <video loop muted  preload='auto' className='video'>
                                 <source src={video} type='video/webm'></source>
                             </video>
                         </div>
@@ -29,7 +29,7 @@ function Content() {
                 <div className='content2'>
                     <div className='content1_right mar'>
                         <div>
-                            <video loop muted autoPlay preload='auto' className='video'>
+                            <video loop muted  preload='auto' className='video'>
                                 <source src={video1} type='video/webm'></source>
                             </video>
                         </div>

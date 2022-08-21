@@ -39,6 +39,10 @@
     box-sizing: border-box;
 }
 
+.artist_desc {
+    line-height: 50px;
+}
+
 .row {
     display: flex;
     margin-bottom: 2%;
@@ -50,18 +54,6 @@
 
 .carousel {
     width: 100%;
-}
-
-@media screen and (max-width: 575px) {
-    .card2 {
-        width: 76vw;
-    }
-}
-
-@media screen and (min-width:576px) {
-    .card2, .card2>div>img {
-        width: 260px
-    }
 }
 
 .slider {
@@ -79,5 +71,9 @@
 @media screen and (max-width: 768px) {
     .card_desc > div {
         font-size: 30px;
+    }
+
+    .artist_desc {
+        line-height: 30px;
     }
 }

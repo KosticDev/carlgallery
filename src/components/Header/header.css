@@ -11,7 +11,9 @@
     z-index: 100;
 }
 
-.show {display: block;}
+.show {
+    display: block;
+}
 
 .container {
     position: relative;
@@ -26,11 +28,11 @@
     }
 }
 
-.logo > h2 {
+.logo>h2 {
     font-size: 30px;
 }
 
-.logo > h2 > a {
+.logo>h2>a {
     text-decoration: none;
     color: #777;
 }
@@ -55,7 +57,7 @@
 }
 
 .list>li {
-    margin-right: 15px;
+    margin-right: 30px;
     cursor: pointer;
     font-weight: 600;
 }
@@ -72,21 +74,27 @@
     cursor: pointer;
 }
 
+.connect:hover {
+    background-color: #aaa;
+    color: white;
+    border-color: white;
+}
+
 .dropdown {
     position: absolute;
     display: none;
     top: 70%;
-    right: 37%;
+    right: 35%;
     font-size: 15px;
     background: #ffffff;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-.dropdown > p {
+.dropdown>p {
     padding: 10px;
 }
 
-.dropdown > p > a {
+.dropdown>p>a {
     color: #333;
     text-decoration: none;
 }
@@ -103,7 +111,7 @@
     cursor: pointer;
 }
 
-.menubar > p {
+.menubar>p {
     height: 5px;
     width: 30px;
     background-color: black;
@@ -111,6 +119,10 @@
 }
 
 .navbar_show {
+    position: sticky;
+    top: 80px;
+    z-index: 100;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,7 +132,7 @@
     display: none;
 }
 
-.navbar_show > ul > li {
+.navbar_show>ul>li {
     font-size: 20px;
     font-family: 'Inter', sans-serif;
     text-align: center;
@@ -129,15 +141,15 @@
     cursor: pointer;
 }
 
-.navbar_show > ul > li:hover {
+.navbar_show>ul>li:hover {
     background: #eee;
 }
 
-.navbar_show > ul {
+.navbar_show>ul {
     list-style: none;
 }
 
-.navbar_show > ul > li > a {
+.navbar_show>ul>li>a {
     text-decoration: none;
     color: #000;
 }
@@ -147,11 +159,11 @@
         padding: 20px 0px;
     }
 
-    .logo > h2 {
+    .logo>h2 {
         font-size: 20px;
     }
 
-    .menubar > p {
+    .menubar>p {
         height: 3px;
         width: 20px;
         margin: 3px 0;
@@ -174,3 +186,69 @@
     }
 }
 
+.wallet-connection {
+    position: sticky;
+    top: 40%;
+    left: calc(100% / 2 - 20%);
+    color: white;
+    z-index: 10;
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #555;
+    padding: 30px;
+    border-radius: 10px;
+    display: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.metamask-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.walletconnection-btn {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.connectwallet {
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .wallet-connection {
+        padding: 5%;
+        font-size: 30px;
+    }
+
+    .close {
+        right: -10%;
+        top: -100%;
+    }
+
+    .metamask-btn>img,
+    .walletconnection-btn>img {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .wallet-connection {
+        left: calc(100% / 2 - 30%);
+    }
+}

@@ -2,18 +2,18 @@ import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import './gallery2.css';
-import gallery2_1 from './Dart Vider (1).png';
-import gallery2_2 from './Dart Vider (2).png';
-import gallery2_3 from './Dart Vider (3).png';
-import gallery2_4 from './Dart Vider (4).png';
-import gallery2_5 from './Dart Vider (5).png';
-import gallery2_6 from './Dart Vider (6).png';
-import gallery2_7 from './Dart Vider (7).png';
-import gallery2_8 from './Dart Vider (8).png';
-import gallery2_9 from './Dart Vider (9).png';
-import gallery2_10 from './Dart Vider (10).png';
-import gallery2_11 from './Dart Vider (11).png';
-import gallery2_12 from './Dart Vider (12).png';
+import gallery2_1 from '../../assets/img/Dart Vider (1).png';
+import gallery2_2 from '../../assets/img/Dart Vider (2).png';
+import gallery2_3 from '../../assets/img/Dart Vider (3).png';
+import gallery2_4 from '../../assets/img/Dart Vider (4).png';
+import gallery2_5 from '../../assets/img/Dart Vider (5).png';
+import gallery2_6 from '../../assets/img/Dart Vider (6).png';
+import gallery2_7 from '../../assets/img/Dart Vider (7).png';
+import gallery2_8 from '../../assets/img/Dart Vider (8).png';
+import gallery2_9 from '../../assets/img/Dart Vider (9).png';
+import gallery2_10 from '../../assets/img/Dart Vider (10).png';
+import gallery2_11 from '../../assets/img/Dart Vider (11).png';
+import gallery2_12 from '../../assets/img/Dart Vider (12).png';
 
 const responsive = {
     0: { items: 1 },

@@ -1,6 +1,5 @@
 .footer {
     background-color: rgba(23, 23, 23, 1);
-    padding: 0 48px;
     font-family: 'Inter', sans-serif;
 }
 
@@ -115,5 +114,10 @@
 @media screen and (max-width: 678px) {
     .desc_center {
         flex-direction: column;
+    }
+
+    .footer2 {
+        flex-direction: column;
+        gap: 20px;
     }
 }

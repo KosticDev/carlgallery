@@ -2,6 +2,10 @@
     margin: 5.5% 0;
 }
 
+.card_list {
+    display: flex;
+}
+
 .card1 {
     background: #eee;
     margin: 10px 10px;
@@ -79,6 +83,12 @@
     cursor: pointer;
 }
 
+.mint1:hover {
+    background-color: #aaa;
+    color: #fff;
+    border-color: #fff;
+}
+
 .famous {
     position: relative;
 }
@@ -108,10 +118,6 @@
     opacity: 0.7;
 }
 
-.artist1 {
-    margin-bottom: 5%;
-}
-
 .artist_desc {
     font-size: 20px;
     font-family: 'Inter', sans-serif;
@@ -121,10 +127,6 @@
 strong {
     font-size: 30px;
     line-height: 100px;
-}
-
-.artist_desc>p {
-    margin: 20px 0;
 }
 
 @media screen and (max-width: 768px) {

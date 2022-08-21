@@ -33,9 +33,9 @@ function Footer() {
                 </div>
                 <div className='footer2'>
                     <div className='term'>
-                        <p className='col'><a>hello@gen.art</a> &nbsp;&nbsp; - &nbsp;&nbsp; <a>Terms of Service</a></p>
+                        <p className='col'><a>Carlgalleryclubnft@gmail.com</a> &nbsp;&nbsp; - &nbsp;&nbsp; <br /><br /><a>Powered by Augmind labs</a></p>
                     </div>
-                    <div className='col gen'><a>© 2021 GEN.ART</a></div>
+                    <div className='col gen'><a>© 2022 CARLGALLERYCLUB</a></div>
                 </div>
             </div>
         </div>

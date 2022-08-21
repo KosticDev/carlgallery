@@ -5,12 +5,12 @@
 
 @font-face {
   font-family: 'Inter';
-  src: url('./Inter-Regular.otf');
+  src: url('./assets/font/Inter-Regular.otf');
 }
 
 @font-face {
   font-family: 'Great Vibes';
-  src: url('./GreatVibes-Regular.ttf');
+  src: url('./assets/font/GreatVibes-Regular.ttf');
 }
 
 .App {

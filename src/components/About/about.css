@@ -5,6 +5,7 @@
 
 .about_desc {
     margin-top: 20px;
+    margin-bottom: 5%;
 }
 
 .about_desc > p {
@@ -20,8 +21,8 @@
     margin-bottom: 20px;
 }
 
-.company_img {
-    width: 100%;
+.mar_bottom {
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {

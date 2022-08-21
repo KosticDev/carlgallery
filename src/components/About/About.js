@@ -1,6 +1,6 @@
 import './about.css';
-import about from './about.jpg';
-import company from './company.jpeg';
+import about from '../../assets/img/about.jpg';
+import video from '../../assets/img/2.mp4';
 
 function About() {
     return (
@@ -15,7 +15,11 @@ function About() {
                     <p>Carl Gallery collaborates closely with its artists though exhibitions and displays are provocative presentations that challenge the conventions and ideologies related to the notion of art display and exhibition-making. We focus on the online platform to give both the artist a wider scope and collectors globally to acquire their favorite piece of artwork.</p>
                     <p>NFT is another segment where art enters a completely digital platform. Carl Gallery presents their digital art collections which can be acquired using digital currencies.</p>
                 </div>
-                <img className='company_img' src={company} alt='' />
+                <div className='mar_bottom'>
+                    <video loop muted preload='auto' className='video'>
+                        <source src={video} type='video/webm'></source>
+                    </video>
+                </div>
             </div>
         </div>
     )
